@@ -1,5 +1,5 @@
 # pdf-merger
-This is a no-frills Windows console app, where you combine multiple PDFs into one PDF!
+Also known as The PDF Centipede, this is a no-frills Windows console app, where you combine multiple PDFs into one PDF!
 
 **How does it work?**
 
