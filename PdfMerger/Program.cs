@@ -72,7 +72,10 @@ namespace ConsoleApp1
                 return null;
             }
 
-            var files = Directory.GetFiles($"{_path}")?.Where(file => file.Contains(".pdf"));
+            var files = Directory.GetFiles($"{_path}")?
+                .Where(file => file.Contains(".pdf"))
+                .OrderBy(file => file);
+
             return files;
         }
     }
